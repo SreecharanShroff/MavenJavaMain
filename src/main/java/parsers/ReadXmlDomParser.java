@@ -12,7 +12,7 @@ import org.w3c.dom.Document;
 
 public class ReadXmlDomParser {
     private static final String userDir = System.getProperty("user.dir");
-    private static final String FILENAME = userDir + "/results/cucumber.xml1";
+    private static final String FILENAME = userDir + "/results/cucumber.xml";
     private static String result = "ignore";
 
     public static void main(String[] args) {
