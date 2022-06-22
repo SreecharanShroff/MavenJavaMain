@@ -21,7 +21,8 @@ public class JmeterJSONParser {
                     result = "fail";
                 }
             }
-            String path = userDir + "\\target\\jmeterResult.txt";
+			System.out.println("result => "+result);
+            String path = userDir + "/target/jmeterResult.txt";
             if (new File(path).exists()) {
                 Files.delete(Paths.get(path));
             }
