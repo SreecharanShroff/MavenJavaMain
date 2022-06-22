@@ -25,8 +25,8 @@ jobs:
     - name: Build with Maven to analyze functional results
       run: mvn -B clean compile exec:java@functional --file pom.xml
     - name: Print functionalResult.txt
-      run: cat ./target/functionalResult.txt
+      run: cat /home/runner/work/MavenJavaMain/MavenJavaMain/target/functionalResult.txt
     - name: Build with Maven to analyze load results
       run: mvn -B clean compile exec:java@load --file pom.xml
     - name: Print jmeterResult.txt
-      run: cat ./target/jmeterResult.txt
+      run: cat /home/runner/work/MavenJavaMain/MavenJavaMain/target/jmeterResult.txt
