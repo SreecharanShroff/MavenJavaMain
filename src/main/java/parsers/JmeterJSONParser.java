@@ -12,6 +12,7 @@ public class JmeterJSONParser {
 
     public static void main(String args[]) {
         try {
+			System.out.println(FILENAME);
             if (new File(FILENAME).exists()) {
                 String contents = new String(Files.readAllBytes(Paths.get(FILENAME)));
                 if (contents.contains("\"errorCount\" : 0")) {
