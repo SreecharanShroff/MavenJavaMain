@@ -1,5 +1,5 @@
 pwd
 ls
-ls target
-cat target/functionalResult.txt
-cat target/jmeterResult.txt
+ls target -l
+cat ./target/functionalResult.txt
+cat ./target/jmeterResult.txt
