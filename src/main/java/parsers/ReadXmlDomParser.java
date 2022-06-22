@@ -17,6 +17,7 @@ public class ReadXmlDomParser {
 
     public static void main(String[] args) {
         try {
+			System.out.println(FILENAME);
             if (new File(FILENAME).exists()) {
                 DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
                 dbf.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
